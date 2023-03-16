@@ -17,6 +17,7 @@ LOCAL_PATH := $(my_path)
 
 include $(CLEAR_VARS)
 
+LOCAL_SDK_VERSION := current
 LOCAL_MODULE := su
 LOCAL_MODULE_TAGS := eng debug
 LOCAL_FORCE_STATIC_EXECUTABLE := true
