@@ -19,7 +19,7 @@ include $(CLEAR_VARS)
 
 LOCAL_SDK_VERSION := 17
 LOCAL_MODULE := su
-LOCAL_MODULE_TAGS := eng debug
+# LOCAL_MODULE_TAGS := eng debug
 LOCAL_FORCE_STATIC_EXECUTABLE := true
 LOCAL_STATIC_LIBRARIES := libc
 LOCAL_C_INCLUDES := external/sqlite/dist
